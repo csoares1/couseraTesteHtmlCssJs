@@ -1,0 +1,155 @@
+body{
+  font-size: 16px;
+  background: white;
+  font-family: 'Oxygen', sans-serif;
+}
+/*Header*/
+
+.navbar-default{
+  background-color: #FFFACD;
+}
+
+.navbar-header{
+  background-color: #FFFACD;
+  border-radius: 0;
+  border:0;
+}
+
+.navbar-brand{
+  padding-top: 25px;
+}
+
+.navbar-brand h1{
+  font-family: 'Lora', serif;
+  color:brown;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75; 
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+#nav-list{
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49
+  font-family: 'Lora', serif;
+  text-align: center; 
+}
+#nav-list a:hover {
+  background: brown;
+  color: white;
+}
+.navbar-default .navbar-toggle:hover{
+  background: brown;
+  color: white; 
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  background: brown;
+  color: white; 
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  background-color: #FFFACD;
+}
+
+.nav-header button.navbar-togle, .navbar-header .icon-bar{
+  border: 1px solid #61122f;
+}
+
+.nav-header button.navbar-togle{
+  clear: both;
+  margin-top: -30px;
+}
+
+/*body*/
+.titulo_top{
+  font-family: 'Lora', serif;
+  color:brown;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#chicken h4{
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-transform: uppercase; 
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#chicken{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #61122f;
+  overflow: hidden;
+   background-color: #FFFACD;
+}
+
+#beef h4{
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-transform: uppercase; 
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#beef{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #61122f;
+  overflow: hidden;
+   background-color: #FFFACD;
+}
+
+#sushi h4{
+  font-family: 'Lora', serif;
+  text-align: center;
+  text-transform: uppercase; 
+  color: brown;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+}
+
+#sushi{
+  height: 100%;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #61122f;
+  overflow: hidden;
+   background-color: #FFFACD;
+}
+
+#back{
+  text-align: right;
+}
+
+/*Footer*/
+.panel-footer{
+  background-color: #FFFACD;
+}
+
+@media (min-width: 992px)
+.col-md-12 {
+    width: 100%;
+}
+
+
